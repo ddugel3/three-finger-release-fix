@@ -1,0 +1,18 @@
+.DS_Store
+*.swp
+
+# Build outputs
+build/
+dist/
+*.dSYM/
+*.app/
+*.zip
+
+# Local analysis input. Keep the old app out of the distributable repo.
+No drag release delay.app/
+No drag release delay.app.zip
+
+# Xcode local state, if someone creates a project locally.
+DerivedData/
+*.xcuserstate
+xcuserdata/
